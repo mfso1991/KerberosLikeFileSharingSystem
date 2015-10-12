@@ -1,5 +1,7 @@
 # KerberosLikeFileSharingSystem
 
+![alt tag](https://raw.githubusercontent.com/mfso1991/KerberosLikeFileSharingSystem/master/protocols.png)
+
 Notice that the document namely ```Phase1&2_DOC.pdf``` only demonstrates a subset of the functionalities. I can't find the complete one after so long ...
 
 goto /src
