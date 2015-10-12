@@ -1,5 +1,7 @@
 # KerberosLikeFileSharingSystem
 
+Notice that the document namely ```Phase1&2_DOC.pdf``` only demonstrates a subset of the functionalities. I can't find the complete one after so long ...
+
 goto /src
 
 compile as ```javac -cp bcprov-ext-jdk15on-153.jar *.java ```
