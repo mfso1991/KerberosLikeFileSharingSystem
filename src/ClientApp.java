@@ -66,14 +66,14 @@ public class ClientApp
 				_pwd += line;
 			buff.close();  
 		}
-        catch(FileNotFoundException ex) 
+        	catch(FileNotFoundException ex) 
 		{
-            System.out.println("No Salt in Use");                
-        }
-        catch(IOException ex) 
+            		System.out.println("No Salt in Use");                
+        	}
+        	catch(IOException ex) 
 		{
-            System.out.println("Error Importing Salt");                   
-        }
+            		System.out.println("Error Importing Salt");                   
+        	}
 		SHA256_digest = MessageDigest.getInstance("SHA256");
 		SHA256_digest.update(_pwd.getBytes("UTF-8"));
 		pwd = SHA256_digest.digest();
